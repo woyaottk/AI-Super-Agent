@@ -22,3 +22,48 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Eclipse
+.metadata
+.project
+.settings
+bin/
+target/
+*.tmp
+*.bak
+*.swp
+*~
+*.scc
+LocalHistory/
+.classpath
+.settings/
+
+*.# 编译输出目录
+/target/
+!/target/**/.gitkeep
+
+# IDE 配置文件
+.idea/
+!.idea/**/.gitkeep
+*.iml
+*.ipr
+*.iws
+
+# 日志文件
+/logs/
+
+# 操作系统相关文件
+.DS_Store
+Thumbs.db
+
+# 构建工具缓存
+.gradle/
+/build/
+
+# 本地配置文件
+application-local.properties
+application-dev.properties
+.env
+
+# 单元测试生成的文件
+/test-output/
